@@ -1,0 +1,34 @@
+{
+  "name": "tarabeeta",
+  "version": "1.0.0",
+  "description": "Sample for Authentication using Passport and JWT with Sequelize and MySQL Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadsakrdev/tarbeeta.git"
+  },
+  "author": "Mohammad Sakr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/mohammadsakr/tarabeeta/issues"
+  },
+  "homepage": "https://gitlab.com/mohammadsakr/tarabeeta#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^1.6.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^5.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
